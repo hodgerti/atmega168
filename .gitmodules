@@ -1,0 +1,3 @@
+[submodule "si4734_driver"]
+	path = si4734_driver
+	url = https://github.com/rltraylor/si4734_driver.git
