@@ -1,7 +1,7 @@
 SHELL               = /bin/bash
-PRG                 = lab6_atmega168
-OBJS                = lab6_atmega168.o twi_master.o uart_functions_m168p.o
-SRCS                = lab6_atmega168.c twi_master.c uart_functions_m168p.c
+PRG                 = main
+OBJS                = main.o twi_master.o uart_functions_m168p.o
+SRCS                = main.c twi_master.c uart_functions_m168p.c
 MCU_TARGET          = atmega168p
 F_CPU               = 16000000UL
 PROGRAMMER_TARGET   = m168p

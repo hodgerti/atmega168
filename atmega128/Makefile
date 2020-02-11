@@ -1,7 +1,7 @@
 SHELL               = /bin/bash
-PRG                 = lab6
-OBJS                = lab6.o hd44780.o twi_master.o lm73_functions.o uart_functions.o si4734.o
-SRCS                = lab6.c hd44780.c twi_master.c lm73_functions.c uart_functions.c si4734.c
+PRG                 = main
+OBJS                = main.o hd44780.o twi_master.o lm73_functions.o uart_functions.o si4734.o
+SRCS                = main.c hd44780.c twi_master.c lm73_functions.c uart_functions.c si4734.c
 MCU_TARGET          = atmega128
 F_CPU               = 16000000UL
 PROGRAMMER_TARGET   = m128
